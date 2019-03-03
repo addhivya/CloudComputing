@@ -1,6 +1,5 @@
 package com.studentservice.cloudclass.Resource;
 
-import java.util.Date;
 import java.util.List;
 
 import javax.ws.rs.Consumes;
@@ -56,9 +55,9 @@ public class StudentResource {
 		studservice.updateStudent(s);
 		return true;
 	}
+	
 	@POST
-	@Path("/tocourse")
-	@Produces(MediaType.APPLICATION_JSON)
+	@Path("/tocourse")	
 	public Boolean addStudentToCourse(@QueryParam("studentId") String studentId,
 			@QueryParam("courseId") String courseId) throws MyException {
 		return studservice.addStudentToCourse(studentId, courseId);
@@ -81,24 +80,23 @@ public class StudentResource {
 	}	
 
 	@POST
-	@Path("/fromprogram")
-	@Produces(MediaType.APPLICATION_JSON)
+	@Path("/fromprogram")	
 	public Boolean removeStudentToProgram(@QueryParam("studentId") String studentId,
 			@QueryParam("programName") String programName) throws MyException {
 		return studservice.removeStudentToProgram(studentId, programName);
-	}
-
-	/*@POST
+	}	
 
 	@GET
+	@Path("/bycourse")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Student> getByCourse(@QueryParam("course") String course) {
+	public List<String> getByCourse(@QueryParam("courseid") String course) throws MyException {
 		return studservice.retriveByCourse(course);
 	}
 
 	@GET
+	@Path("/byprogram")
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Student> getByProgram(@QueryParam("program") String program) {
-		return studservice.retriveByCourse(program);
-	}*/
+	public List<Student> getByProgram(@QueryParam("programname") String program) {
+		return studservice.retriveByProgram(program);
+	}
 }

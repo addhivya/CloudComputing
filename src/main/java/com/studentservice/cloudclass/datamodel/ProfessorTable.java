@@ -45,9 +45,6 @@ public class ProfessorTable {
 
 	public List<Professor> retriveAll() throws MyException{
 		final List<Professor> returnList = new ArrayList<>();
-		if(professorMap.size()<1) {
-			throw new MyException("No Professors exist!!");
-		}
 		for (Professor p : professorMap.values()) {
 			returnList.add(p);
 		}		

@@ -43,9 +43,6 @@ public class StudentTable {
 		for (Student s : studentMap.values()) {
 			result.add(s);
 		}		
-		if(result.isEmpty()) {
-			throw new MyException("No students exists!!");
-		}
 		return result;
 	}
 

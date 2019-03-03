@@ -57,9 +57,6 @@ public class ProgramTable {
 		for (Program p : programMap.values()) {
 			returnList.add(p);
 		}
-		if(returnList.isEmpty()) {
-			throw new MyException("No Program exist!!");
-		}
 		return returnList;
 	}
 

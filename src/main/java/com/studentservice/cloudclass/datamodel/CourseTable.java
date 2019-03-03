@@ -54,9 +54,6 @@ public class CourseTable {
 				returnList.add(c);
 			}
 		}
-		if(returnList.isEmpty()) {
-			throw new MyException("No Professors exist in that dept!!");
-		}
 		return returnList;
 	}
 
