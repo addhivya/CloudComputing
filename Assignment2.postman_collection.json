@@ -1,0 +1,1682 @@
+{
+	"info": {
+		"_postman_id": "4d0d22bd-c729-431b-abce-32aed6222490",
+		"name": "Assignment2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/professors",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"firstName\": \"Siva\",\n        \"lastName\": \"Dosa\",\n        \"department\": \"IS\",\n        \"joinDate\": \"01/08/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/professors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/professors",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"firstName\": \"Siva\",\n        \"lastName\": \"Dosa\",\n        \"department\": \"IS\",\n        \"joinDate\": \"01/08/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/professors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/professors",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"firstName\": \"April\",\n        \"lastName\": \"Begam\",\n        \"department\": \"IS\",\n        \"joinDate\": \"01/01/2019\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/professors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \n        \"firstName\": \"Akshaya\",\n        \"lastName\": \"Arasu\",\n        \"image\": \"Akshu\",\n        \"department\": \"IS\",\n        \"joinDate\": \"05/09/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \n        \"firstName\": \"Manjula\",\n        \"lastName\": \"Prabhu\",\n        \"image\": \"ManP\",\n        \"department\": \"IS\",\n        \"joinDate\": \"05/09/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \n        \"firstName\": \"Naveen\",\n        \"lastName\": \"Raj\",\n        \"image\": \"NaveenRaj\",\n        \"department\": \"IS\",\n        \"joinDate\": \"05/09/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \n        \"firstName\": \"Div\",\n        \"lastName\": \"ya\",\n        \"image\": \"Divya\",\n        \"department\": \"IS\",\n        \"joinDate\": \"05/09/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5200\",\n        \"name\": \"DataStructures\",\n        \"schedule\": \"Thursday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/board",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {      \"id\": \"B1\",\n         \"courseId\": \"INFO5100\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/board",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"board"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/board",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {      \"id\": \"B2\",\n         \"courseId\": \"INFO5200\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/board",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"board"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/professors",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/professors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"professors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=NaveenRaj&courseId=INFO5200",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=NaveenRaj&courseId=INFO5200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students",
+						"tocourse"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "NaveenRaj"
+						},
+						{
+							"key": "courseId",
+							"value": "INFO5200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=AkshayaArasu&courseId=INFO5200",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=AkshayaArasu&courseId=INFO5200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students",
+						"tocourse"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "AkshayaArasu"
+						},
+						{
+							"key": "courseId",
+							"value": "INFO5200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=DivyaAD&courseId=INFO5100",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=DivyaAD&courseId=INFO5100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students",
+						"tocourse"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "DivyaAD"
+						},
+						{
+							"key": "courseId",
+							"value": "INFO5100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=AkshayaArasu&courseId=INFO5100",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students/tocourse?studentId=AkshayaArasu&courseId=INFO5100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students",
+						"tocourse"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "AkshayaArasu"
+						},
+						{
+							"key": "courseId",
+							"value": "INFO5100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/addta?studentId=DivyaAD&courseID=INFO5200",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/addta?studentId=DivyaAD&courseID=INFO5200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"addta"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "DivyaAD"
+						},
+						{
+							"key": "courseID",
+							"value": "INFO5200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/addta?studentId=ManjulaPrabhu&courseID=INFO5100",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/addta?studentId=ManjulaPrabhu&courseID=INFO5100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"addta"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "ManjulaPrabhu"
+						},
+						{
+							"key": "courseID",
+							"value": "INFO5100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/board/addcourse?courseId=INFO5200&id=B2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/board/addcourse?courseId=INFO5200&id=B2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"board",
+						"addcourse"
+					],
+					"query": [
+						{
+							"key": "courseId",
+							"value": "INFO5200"
+						},
+						{
+							"key": "id",
+							"value": "B2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/board/addcourse?courseId=INFO5200&id=B2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/board/addcourse?courseId=INFO5200&id=B2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"board",
+						"addcourse"
+					],
+					"query": [
+						{
+							"key": "courseId",
+							"value": "INFO5200"
+						},
+						{
+							"key": "id",
+							"value": "B2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/announcement",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"boardId\": \"B2\",\n        \"description\":\"My DS announcement\",\n        \"joinDate\": \"05/08/2019\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/announcement",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"boardId\": \"B1\",\n        \"description\":\"My Java announcement\",\n        \"joinDate\": \"05/08/2019\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/announcement",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"boardId\": \"B2\",\n        \"description\":\"My DS announcement\",\n        \"joinDate\": \"05/08/2019\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/addboard?courseId=INFO5100&id=B1",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/addboard?courseId=INFO5100&id=B1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"addboard"
+					],
+					"query": [
+						{
+							"key": "courseId",
+							"value": "INFO5100"
+						},
+						{
+							"key": "id",
+							"value": "B1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/addboard?courseId=INFO5200&id=B2",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/addboard?courseId=INFO5200&id=B2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"addboard"
+					],
+					"query": [
+						{
+							"key": "courseId",
+							"value": "INFO5200"
+						},
+						{
+							"key": "id",
+							"value": "B2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/addprof?professorId=AashishKumar&courseID=INFO5200",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/addprof?professorId=AashishKumar&courseID=INFO5200",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"addprof"
+					],
+					"query": [
+						{
+							"key": "professorId",
+							"value": "AashishKumar"
+						},
+						{
+							"key": "courseID",
+							"value": "INFO5200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/addprof?professorId=SivaDosa&courseID=INFO5100",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/addprof?professorId=SivaDosa&courseID=INFO5100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"addprof"
+					],
+					"query": [
+						{
+							"key": "professorId",
+							"value": "SivaDosa"
+						},
+						{
+							"key": "courseID",
+							"value": "INFO5100"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/board",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/board",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"board"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/announcement",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course/INFO5100",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course/INFO5100",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course",
+						"INFO5100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/course",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/course",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"course"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/board",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/board",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"board"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/announcement",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/announcement",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"announcement"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {     \"id\": \"INFO5100\",\n        \"name\": \"Java\",\n        \"schedule\": \"Friday\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"studentID\": \"ManjulaPrabhu\",\n        \"firstName\": \"Manjula\",\n        \"lastName\": \"Prabhu\",\n        \"image\": \"Manju\",\n        \"courseEnrolled\": [\n            \"INFO5200\"\n        ],\n        \"department\": \"IS\",\n        \"joinDate\": \"01/12/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/students",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"studentID\": \"ManjulaPrabhu\",\n        \"firstName\": \"Manjula\",\n        \"lastName\": \"Prabhu\",\n        \"image\": \"Manju\",\n        \"courseEnrolled\": [\n            \"INFO5200\"\n        ],\n        \"department\": \"IS\",\n        \"joinDate\": \"01/12/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/professors/year?year=2018&size=1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"studentID\": \"ManjulaPrabhu\",\n        \"firstName\": \"Manjula\",\n        \"lastName\": \"Prabhu\",\n        \"image\": \"Manju\",\n        \"courseEnrolled\": [\n            \"INFO5200\"\n        ],\n        \"department\": \"IS\",\n        \"joinDate\": \"01/12/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/professors/year?year=2018&size=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"professors",
+						"year"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2018"
+						},
+						{
+							"key": "size",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/cloudclass_war/webapi/professors/year?year=2018&size=0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\n      \n  {    \n        \"studentID\": \"ManjulaPrabhu\",\n        \"firstName\": \"Manjula\",\n        \"lastName\": \"Prabhu\",\n        \"image\": \"Manju\",\n        \"courseEnrolled\": [\n            \"INFO5200\"\n        ],\n        \"department\": \"IS\",\n        \"joinDate\": \"01/12/2018\"\n        }\n\n   \n    \n"
+				},
+				"url": {
+					"raw": "http://localhost:8081/cloudclass_war/webapi/professors/year?year=2018&size=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"cloudclass_war",
+						"webapi",
+						"professors",
+						"year"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2018"
+						},
+						{
+							"key": "size",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
